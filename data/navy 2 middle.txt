@@ -62,7 +62,7 @@ mission "Navy FW Reassignment 2"
 			scene "thumbnail/cruiser"
 			`Waiting for you behind the door is a woman in Navy blues, with a portable handheld computer, which likely has the registry and documents for transfer of the ship.`
 			`	"Well captain," she says, "There she is. What a beauty. She's all ready to go. Hope she can serve you well! Before you can take her, though, we just need to do a little bit of paperwork." She turns the computer and you see a river of words run past you. She simply moves the information quick enough that you can glance at it all (and see it is all mostly pointless, talking about liability and ownership and the like,) and states, "Sign here Commander." You quickly put your signature and thumbprint at the bottom, and a green light flashes.`
-			`	"What is her name?" you ask."`
+			`	"What is her name?" you ask.`
 			`	"The Horizon. Happy flying Commander..."`
 			`You shake her hand, and as you walk towards the boarding ramp you see her smile.`
 

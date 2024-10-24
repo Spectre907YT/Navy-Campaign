@@ -86,7 +86,7 @@ mission "Joining the Navy"
 			``
 			`Howell's expression hardens as his gaze turns left and skyward. "With rumblings of war starting in the South, and pirates massing in the North, the Navy is going to be stretched thin." His gaze returns to you. "As of today, you haved been approved for Navy Tier I Enlistment status. As part of being inducted as a Navy Captainer, you'll receive a daily stipend of 500 credits per day, and you will receive a Navy Frigate as your first deployment. You are very lucky to be benefitting from this grant, most other captains with a commission such as yours do not receive such favor. However, due to an analysis of your combat it was deemed an appropriate investment. At ease."`
 			``
-			`	You let your hand drop to your side as you nod firmly. "What are my orders, Colonel?"
+			`	You let your hand drop to your side as you nod firmly. "What are my orders, Colonel?"`
 			`	"Your first assignment," he begins, taking a uniform handed to him by the trooper to his left (your right), "will be to rendezvous with Admiral William Danforth - he's been tasked to deal with the pirates that are starting to gather up North. As for your civilian ships, well, just as in the days of the American Revolution, we do not object to the assistance, but your personal property is your responsibility. Understood?"`
 			`"Yes, sir!"`
 			`He hands you the uniform - it's the familiar blue Navy jumpsuit, speckled with orange and gold highlights here and there. Your hands are trembling slightly as you take the uniform from his hands - this is really happening, you think to yourself.`
@@ -354,7 +354,7 @@ mission "Navy Pirate Patrol: Hunt"
 			label wait
 			`You patiently stand by for a few minutes before Danforth realizes you're there. "Sorry about that, Captain <last>," he apologizes. "I just had to take care of some internal matters - I hope you weren't waiting long."`
 			`	"Just a few minutes, Admiral. I didn't want to interrupt if it was something important."`
-			`Danforth scoffs, smiling. "Don't ever be afraid to ask, Captain - honestly, you being here helps me take my mind off of things."
+			`Danforth scoffs, smiling. "Don't ever be afraid to ask, Captain - honestly, you being here helps me take my mind off of things."`
 			label mission
 			`	Danforth procures a small holo-projector from his pocket, which shows the nearby systems. "We've managed to track the pirate to the Saiph system, <first>," he says, right as Saiph is highlighted. "The ship in question is a Raven-class warship known as the '<npc>' - it's been reported terrorizing merchants passing through the system. Once you destroy the <npc>, report back here for further instructions."`
 			choice
@@ -377,7 +377,7 @@ mission "Navy Pirate Patrol: Hunt"
 				has "ranulph's background"
 			action
 				log "People" "Ranulph Hines" `A rather rude Republic Officer, Ranulph Hines has served in the Republic for several years.`
-			`Danforth nods approvingly. "At ease," he commands, allowing your hand to drop back to your side. As you do so, your eyes briefly glance over to Hines' expression. The man is still clearly displeased by the whole ordeal, but for what reason, you don't know. Whatever the case, his glare is chilling, to say the least.
+			`Danforth nods approvingly. "At ease," he commands, allowing your hand to drop back to your side. As you do so, your eyes briefly glance over to Hines' expression. The man is still clearly displeased by the whole ordeal, but for what reason, you don't know. Whatever the case, his glare is chilling, to say the least.`
 				goto end
 			label angry
 			`Danforth nods approvingly. "At ease," he commands, allowing your hand to drop back to your side. As you do so, your eyes briefly glance over to Ranulph's expression. It suddenly dawns on you that the ceremony is why Ranulph looks as incensed as he does - normally, the process of climbing to where you stand now would take months, if not years, and you managed it within a fraction of that time. Danforth mentioned that Ranulph is a glory hound, and a new upstart being promoted as quickly as you are would be a serious threat to his perceived status as a hero.`
@@ -1050,7 +1050,7 @@ mission "Geminus 3C"
 			`"You got it, <last>," he replies without hesitation. "After all, you're bending over backwards to make sure one of my best friends is safe and sound. I'll let my other buddies know to keep an eye out for you - the more feelers we can put out, the better."`
 			`The pair of you soon exit your ship and head back to the auxiliary captains. "I won't let you down, Captain," Henry says as he gets back in line. "Thanks for giving me this chance!"`
 			label end
-			`It takes a couple hours before all the mechanics have loaded onto the auxiliaries. With your errand complete, you board the <ship> and get ready to head back to Geminus.
+			`It takes a couple hours before all the mechanics have loaded onto the auxiliaries. With your errand complete, you board the <ship> and get ready to head back to Geminus.`
 
 	on complete
 		payment 2500000
@@ -1945,7 +1945,7 @@ mission "Dockworker Rescue 1"
 		not "event: 3 week hadley delay"
 	landing
 	name "Rescue Hadley"
-	description "Get to Lodestone and pick up Lucas Hadley and his family.
+	description "Get to Lodestone and pick up Lucas Hadley and his family."
 	deadline
 	destination Lodestone
 	on offer
@@ -1999,7 +1999,7 @@ mission "Dockworker Rescue 2"
 			`You cycle the airlock, and smile to yourself.`
 	npc kill
 		government "Bounty Hunter"
-		system "Capella
+		system "Capella"
 		personality heroic nemesis vindictive unconstrained target
 		confusion 15
 		ship "Marauder Leviathan (Weapons)" "Nemesis"

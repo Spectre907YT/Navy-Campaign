@@ -61,8 +61,8 @@ mission "Navy FW Reassignment 2"
 			`	A few minutes later, you spot a door marked 'Restricted Access: Authorized Navy Personnel Only.' The door is flanked by a marine with a laser rifle. You show your license to him, and he motions you inside.`
 			scene "thumbnail/cruiser"
 			`Waiting for you behind the door is a woman in Navy blues, with a portable handheld computer, which likely has the registry and documents for transfer of the ship.`
-			`	"Well captain," she says, "There she is. What a beauty. She's all ready to go. Hope she can serve you well! Before you can take her, though, we just need to do a little bit of paperwork." She turns the computer and you see a river of words run past you. She simply moves the information quick enough that you can glance at it all (and see it is all mostly pointless, talking about liability and ownership and the like,) and states, "Sign here Commander." You quickly put your signature and thumbprint at the bottom, and a green light flashes.
-			`	"What is her name?" you ask."
+			`	"Well captain," she says, "There she is. What a beauty. She's all ready to go. Hope she can serve you well! Before you can take her, though, we just need to do a little bit of paperwork." She turns the computer and you see a river of words run past you. She simply moves the information quick enough that you can glance at it all (and see it is all mostly pointless, talking about liability and ownership and the like,) and states, "Sign here Commander." You quickly put your signature and thumbprint at the bottom, and a green light flashes.`
+			`	"What is her name?" you ask."`
 			`	"The Horizon. Happy flying Commander..."`
 			`You shake her hand, and as you walk towards the boarding ramp you see her smile.`
 
@@ -105,9 +105,9 @@ mission "Navy FW Reassignment 4"
 		event "Navy Campaign Begin FW Hostilities"
 		conversation
 			`As your <ship> slows its landing descent, you glance out the window to see a massive fleet gathered in the spaceport and around it, what you estimate is about a dozen cruisers, a couple carriers, and an absurd quantity of smaller ships and fighters. Moments later, your ship thuds down on the platform with a pleasant hiss, and you head for the airlock. Walking down the boarding ramp you are greeted by a waiting officer.`
-			`	"Commander! If you would follow me, Commodore Cruz wishes to see you in his briefing room."
-			`You follow the officer, and soon find yourself seated in a room with several dozen officers. You can't help but notice that Hines is sitting in the back with a dark look on his face. You also notice that he does not seem to grow any happier by your presence. You look forward in the room and brush him out of your mind, and you focus on the Commodore as he prepares to ascend to the podium and give the briefing. Cruz is a burly man, Hispanic and in his late 60's, although he does not seem to be affected by such a number. His chest is remarkably large, and he has a short and dense silver beard and moustache that is well kept. His eyes are small, but gleam with the experience and an ever-analyzing aura that is to be expected of an accomplished tactician such as he. You watch as he straightens out his military jacket, and steps up to the dais.
-			`	"Gentlemen," he says, "This is the moment. It has finally happened. War. War is terrible, and I do not relish sacrificing lives for a supposed glory. There is little glory in war. Some of us may not survive the next few days. However, we must not dwell on that. We have a mission. We have honor to uphold. We have our comrades, in this room, their lives to uphold."
+			`	"Commander! If you would follow me, Commodore Cruz wishes to see you in his briefing room."`
+			`You follow the officer, and soon find yourself seated in a room with several dozen officers. You can't help but notice that Hines is sitting in the back with a dark look on his face. You also notice that he does not seem to grow any happier by your presence. You look forward in the room and brush him out of your mind, and you focus on the Commodore as he prepares to ascend to the podium and give the briefing. Cruz is a burly man, Hispanic and in his late 60's, although he does not seem to be affected by such a number. His chest is remarkably large, and he has a short and dense silver beard and moustache that is well kept. His eyes are small, but gleam with the experience and an ever-analyzing aura that is to be expected of an accomplished tactician such as he. You watch as he straightens out his military jacket, and steps up to the dais.`
+			`	"Gentlemen," he says, "This is the moment. It has finally happened. War. War is terrible, and I do not relish sacrificing lives for a supposed glory. There is little glory in war. Some of us may not survive the next few days. However, we must not dwell on that. We have a mission. We have honor to uphold. We have our comrades, in this room, their lives to uphold."`
 			`	"Our mission is to get to the planet Deep's surface. There is a mid-sized defense fleet in orbit that we must evade. Once on the surface we will confront the planet authorities with the evidence that the Geminus Investigation has produced, and hopefully force a surrender of the system. Our route will be a short one- head south-west through Wei, and then south to Kornephoros. It is only a two-day trip, but do not linger in the intermediary systems, save your ammunition. We will be there a short while, but we expect retaliatory action and we need to be as conservative as possible until we decide our next courses of action."`
 			`	"As I will be conducting the negotiations, (as per Parliament's orders,) your goal is to hold off the defenders until I can get to the surface. Commander <last> and his fleet will run escort for me and the rest of you will hold a perimeter in space. My ship is the R.N.S. Victory. Any questions?"`
 			`The officers in the room respond with a resounding "No sir!" and you say:`
@@ -115,7 +115,7 @@ mission "Navy FW Reassignment 4"
 				`	"No, sir!"`
 					goto no
 				`	"Sir, what is the evidence we have?"`
-			`	"Apparently the Free Worlds tested a nuclear device, with a nearly identical signature as to the one used on Geminus, on the mining world of Clink, which is a moon orbiting and under the authority of Deep."
+			`	"Apparently the Free Worlds tested a nuclear device, with a nearly identical signature as to the one used on Geminus, on the mining world of Clink, which is a moon orbiting and under the authority of Deep."`
 			`This sparks gasps and remarks of anger in the assembled officers as they depart the room, and you head back to your ship to get some sleep.`
 				goto end
 			label no
@@ -215,7 +215,7 @@ mission "Navy Intelligence 1"
 			`Cruz leads you across the impromptu landing area to his ship, the R.N.S. Victory. You follow the gangplank up to the entrance, identical to the R.N.S. Horizon, and through the ship's white interior hallways to the captain's cabin. You enter, following the Commodore, and he presses a button and sits down as the door hisses shut and seals with the squeak of an airlock.`
 			`	"Have a seat, Commander," he says, gesturing to the chair in front of the desk. You sit down and he continues:`
 			`	"<last>, as you know, the moon of Clink is the actual supposed site of testing, and the Investigation is sure of it. However as somewhat a formality and somewhat for a corroborating account, we have been asked to get scans and samples of any and all sites that we can locate here.`
-			`	"The moon has been locked down since we entered the system, and right now Intelligence personnel are filtering through the population to find potential suspects or involved members. In any case, we should with all haste proceed there to search for the evidence around the moon. We should be able to take samples and readings by the time Intelligence is finished, at which point we can lift the lockdown and let the private captains or other personnel continue operations. But it is important that we finish our task before restrictions are lifted to prevent any chances of unwanted questions from inquisitive captains.`
+			`	"The moon has been locked down since we entered the system, and right now Intelligence personnel are filtering through the population to find potential suspects or involved members. In any case, we should with all haste proceed there to search for the evidence around the moon. We should be able to take samples and readings by the time Intelligence is finished, at which point we can lift the lockdown and let the private captains or other personnel continue operations. But it is important that we finish our task before restrictions are lifted to prevent any chances of unwanted questions from inquisitive captains."`
 			`	"How are we going to take the data?" you ask.`
 			`Cruz presses a button and then spins his monitor around. The monitor shows the R.N.S. Victory's drone bays- which are surprisingly loaded with surveillance drones as opposed to combat drones.`
 			scene "thumbnail/surveillance drone"
@@ -228,7 +228,7 @@ mission "Navy Intelligence 1"
 		conversation
 			`After the short journey up and over to Clink you make your landing, dodging several meteors in the process. You set your ship down outside a mining outpost, with Cruz's Cruiser right behind. The Victory does not touch down, however: you watch as doors in the bottom of the hull slide open, and a blue light inside begins to glow. The light grows to a point until with a clunk the four surveillance drones drop out, a second later their own repulsors kick in, and they stop mid-air and then slowly ascend into a line on both sides of the cruiser.`
 			`You are hailed by Commodore Cruz.`
-			`	"Commander- I am ready. I have sent the search pattern to your ship's computer, and we can proceed whenever you want. I will be running with the drones at five hundred meters, you hold guard at fifteen hundred. Just use your guns to hit any significant asteroids or meteors that are headed toward the drones, they need to hold pattern to get proper readings, and remember that the drones are unshielded. Radio me when you are ready.`
+			`	"Commander- I am ready. I have sent the search pattern to your ship's computer, and we can proceed whenever you want. I will be running with the drones at five hundred meters, you hold guard at fifteen hundred. Just use your guns to hit any significant asteroids or meteors that are headed toward the drones, they need to hold pattern to get proper readings, and remember that the drones are unshielded. Radio me when you are ready."`
 			choice
 				`	"Ready sir."`
 			`You watch as Cruz and the drones turn and begin accelerating. You quickly take off and follow, ascending to the altitude he requested.`
@@ -241,7 +241,7 @@ mission "Navy Intelligence 1"
 			`	"We had just... ourselves, and that is why I was there, to attempt... more information which couldn't be gotten with captain... here," the woman seems to calmly respond. "I would not have recruited... unless... innocent."`
 			`The woman's responses are much harder to hear, as she sounds calm and patient. Suddenly you hear a very recognizable voice scream:`
 			`	"And yet there is a damned nuclear site on your moon, and a council member hiding out there! Sounds to me like you were orchestrating a cover up you conniving-"`
-			`The distinct condescending scream of Hines drops out with a jump, as if he has been grabbed, and the door quickly opens. A man you do not recognize who bears the four stars of Admiral walks out holding Hines' arm and angrily whispering, "Lieutenant Commander you will wait your turn to speak and if and when you are permitted it shall be something sensible and not emotions leading your tongue. Do not ever think you supersede the order of things; this is not your interrogation." He casts Hines' arm away and turns to reenter the room, but holds the door for you.
+			`The distinct condescending scream of Hines drops out with a jump, as if he has been grabbed, and the door quickly opens. A man you do not recognize who bears the four stars of Admiral walks out holding Hines' arm and angrily whispering, "Lieutenant Commander you will wait your turn to speak and if and when you are permitted it shall be something sensible and not emotions leading your tongue. Do not ever think you supersede the order of things; this is not your interrogation." He casts Hines' arm away and turns to reenter the room, but holds the door for you.`
 			branch hines
 				has rivalry
 			label hines
@@ -287,10 +287,10 @@ mission "Navy Intelligence 2"
 		conversation
 			`You dock with the station, thankfully with the Auxiliary still intact, and as you are shutting down you notice a news report stating that the Navy attacked the Free Worlds system Sabik, but was repulsed. This was followed by a swift counterattack on Kornephoros leading to its recapture by the Free Worlds. Many Navy personnel were captured, but the Free Worlds decided to give anyone who swore an oath to abstain from the war parole, and so a ceasefire has been negotiated for around a week to give the Free Worlds time to transport the prisoners to Republic space.`
 			`Suddenly your communicator lights up with a notification from Naval High Command, distracting you from the broadcast:`
-			`	"Commander <last>, since you
+			`	"Commander <last>, since you..."`
 
 			label hadley
-			`Upon finishing the 
+			`Upon finishing the...`
 			`#note hines sabik attack`
 			`#note move to prowler sequence`
 	npc evade
@@ -776,7 +776,7 @@ mission "ATTACK [7]"
 			`	"Why? What's wrong?" you ask, confused.`
 			`	"Have a look at this."`
 			`Your primary display changes to show a newsreel of several Syndicate ships in orbit above Earth. On many of the ships, your eyes are drawn to launchers that are several times the size of any missile or rocket launcher - even torpedo tubes wouldn't come close to that size.`
-			`	"Yesterday, a Syndicate fleet appeared in orbit above Earth - it wasn't long before we determined that the ships were armed with multiple nuclear warheads, and began issuing demands.`
+			`	"Yesterday, a Syndicate fleet appeared in orbit above Earth - it wasn't long before we determined that the ships were armed with multiple nuclear warheads, and began issuing demands."`
 			`	(Wait...armed with nukes?!) you think to yourself.`
 			`Suddenly, new ships materialize out of nowhere in a haze of bluish particles and surround the Syndicate ships. The new ships are almost organic in their designs - the best description you can give likens them to yellow-colored coral. "Only a few hours after the fleet's arrival, the fleet of unknown alien design you see appeared, apparently using hyperdrives like those possessed by the Quarg. And as soon as they arrived..."`
 			`Right as Cruz narrates, the unknown ships open fire on the Syndicate fleet with their weapons, and reduce the Syndicate ships to little more than drifting hulks. And as swiftly as they appeared, the unknown ships vanish, and the feed goes dead.`

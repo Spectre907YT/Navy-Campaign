@@ -699,7 +699,7 @@ mission "Pug [9]"
 		log "Successfully drove the Pug out of Altair."
 		event "NAVY-liberation of altair"
 		conversation
-			`You land on <planet> and your fleet gets ready for the attack on Deneb, the Pug's home system.
+			`You land on <planet> and your fleet gets ready for the attack on Deneb, the Pug's home system.`
 mission "Pug [10]"
 	landing
 	name "Defend <system>"
@@ -1076,7 +1076,7 @@ mission "syndicate attack [2]"
 	on complete
 		event "Caph occupied"
 		conversation
-			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.
+			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.`
 			`You should probably lead them fleet to the next planet and destroy any Alpha ships there.`
 	on visit
 		conversation
@@ -1134,11 +1134,11 @@ mission "syndicate attack [3]"
 	on offer
 		conversation
 			`You head to the spaceport and meet the captains. You get to know them and then head back to <ship> and get ready to launch.`
-			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>
+			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>`
 	on complete
 		event "Diphda occupied"
 		conversation
-			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.
+			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.`
 			`You should probably lead the fleet to the next planet and destroy any Alpha ships there.`
 	on visit
 		conversation
@@ -1196,11 +1196,11 @@ mission "syndicate attack [3]"
 	on offer
 		conversation
 			`You head to the spaceport and meet the captains. You get to know them and then head back to <ship> and get ready to launch.`
-			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>
+			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>`
 	on complete
 		
 		conversation
-			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.
+			`Your fleet has destroyed the Alphas, and they are now securing the planet and destroying any Alphas on the surface.`
 			`You should probably lead the fleet to the next planet and destroy any Alpha ships there.`
 	on visit
 		conversation

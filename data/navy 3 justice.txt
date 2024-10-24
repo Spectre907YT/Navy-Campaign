@@ -1134,7 +1134,7 @@ mission "syndicate attack [3]"
 	on offer
 		conversation
 			`You head to the spaceport and meet the captains. You get to know them and then head back to <ship> and get ready to launch.`
-			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>`
+			`As you are warming up your ship you receive instructions from the from the control tower that the Syndicate is resisting occupation, so expect hostile ships in orbit around <destination>.`
 	on complete
 		event "Diphda occupied"
 		conversation

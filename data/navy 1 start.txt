@@ -1574,7 +1574,7 @@ mission "Typhoons 1B"
 					accept
 	on stopover
 		conversation
-			`Despite the harassment from the mercenaries, you manage to safely touch down roughly within your landing beacons on the pad. Thankfully, the Auxiliary has survived without major damage, and after a short inspection, Syndicate dockworkers begin loading it up with heavily armored crates with large warning symbols on it. This crate would likely have caused cancer in California. After an short wait, the load is complete, and you head to the bridge to prepare your ship.
+			`Despite the harassment from the mercenaries, you manage to safely touch down roughly within your landing beacons on the pad. Thankfully, the Auxiliary has survived without major damage, and after a short inspection, Syndicate dockworkers begin loading it up with heavily armored crates with large warning symbols on it. This crate would likely have caused cancer in California. After an short wait, the load is complete, and you head to the bridge to prepare your ship.`
 	on complete
 		conversation
 			`With surprisingly no resistance, you manage to bring the Auxiliary home relatively unscathed, and with all its cargo intact. As you touch down on the pad, you receive another message from John informing you to meet him inside the lab.`
@@ -1962,7 +1962,7 @@ mission "Dockworker Rescue 1"
 	on complete
 		conversation
 			`As you orbit the planet while waiting for landing clearance, you receive a message:`
-			`	"<first>, this is Lucas. Thank you so much for coming. I am with my family and Henry, and I am ready whenever you are. We are heading to the spaceport right now- please hurry though, I do not want to stay here any longer. Talk to you later, on board your ship."
+			`	"<first>, this is Lucas. Thank you so much for coming. I am with my family and Henry, and I am ready whenever you are. We are heading to the spaceport right now- please hurry though, I do not want to stay here any longer. Talk to you later, on board your ship."`
 
 mission "Dockworker Rescue 2"
 	to offer
